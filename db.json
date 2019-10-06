@@ -1,0 +1,233 @@
+{
+  "requests": [
+    {
+      "id": "cjqmxp9nu00003g5sw9cv0xd0",
+      "rooms": [
+        {
+          "id": "cjqmxp9nu00013g5s0bupp1v2",
+          "name": "room-1",
+          "requests": {
+            "adult": 1,
+            "child": 0
+          }
+        },
+        {
+          "id": "cjqmxp9nu00023g5s4oeqg7b5",
+          "name": "room-2",
+          "requests": {
+            "adult": 1,
+            "child": 0
+          }
+        },
+        {
+          "id": "cjqmxp9nu00033g5skpey4w90",
+          "name": "room-3",
+          "requests": {
+            "adult": 1,
+            "child": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "cjqn469h900003g5scb0sxa8z",
+      "rooms": [
+        {
+          "id": "cjqn469h900013g5s7vqldrxh",
+          "name": "room-1",
+          "requests": {
+            "adult": 1,
+            "child": 0
+          }
+        },
+        {
+          "id": "cjqn469h900023g5sp7rvvi50",
+          "name": "room-2",
+          "requests": {
+            "adult": 1,
+            "child": 0
+          }
+        },
+        {
+          "id": "cjqn469h900033g5so9npo7py",
+          "name": "room-3",
+          "requests": {
+            "adult": 1,
+            "child": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "cjqn46fo900043g5s7d5zg3io",
+      "rooms": [
+        {
+          "id": "cjqn46fo900053g5s9dpffn04",
+          "name": "room-1",
+          "requests": {
+            "adult": 1,
+            "child": 0
+          }
+        },
+        {
+          "id": "cjqn46fo900063g5s613wfve8",
+          "name": "room-2",
+          "requests": {
+            "adult": 1,
+            "child": 0
+          }
+        },
+        {
+          "id": "cjqn46fo900073g5sg1pfewvg",
+          "name": "room-3",
+          "requests": {
+            "adult": 1,
+            "child": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "cjqn8xx7k00003g5swnn24ihe",
+      "roomRequests": [
+        {
+          "id": "cjqn8xx7k00013g5sz5fapugs",
+          "name": "room-1",
+          "requests": {
+            "adult": 1,
+            "child": 2
+          }
+        },
+        {
+          "id": "cjqn8xx7k00023g5seiuz5ugt",
+          "name": "room-2",
+          "requests": {
+            "adult": 1,
+            "child": 0
+          }
+        },
+        {
+          "id": "cjqn8xx7k00033g5sevk32t98",
+          "name": "room-3",
+          "requests": {
+            "adult": 1,
+            "child": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "cjqn90aex00003g5su6d1cwug",
+      "roomRequests": [
+        {
+          "id": "cjqn90aex00013g5s7rkbzxqv",
+          "name": "room-1",
+          "requests": {
+            "adult": 1,
+            "child": 2
+          }
+        },
+        {
+          "id": "cjqn90aex00023g5sb6i9fl3o",
+          "name": "room-2",
+          "requests": {
+            "adult": 1,
+            "child": 0
+          }
+        },
+        {
+          "id": "cjqn90aex00033g5st6aipx9a",
+          "name": "room-3",
+          "requests": {
+            "adult": 1,
+            "child": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "cjqn97cwl00003g5sxqeblmb6",
+      "roomRequests": [
+        {
+          "id": "cjqn97cwl00013g5s8cxzt4xi",
+          "name": "room-1",
+          "requests": {
+            "adult": 1,
+            "child": 2
+          }
+        },
+        {
+          "id": "cjqn97cwl00023g5s6n9u63p6",
+          "name": "room-2",
+          "requests": {
+            "adult": 1,
+            "child": 0
+          }
+        },
+        {
+          "id": "cjqn97cwl00033g5so6vr75fw",
+          "name": "room-3",
+          "requests": {
+            "adult": 1,
+            "child": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "cjqnbbf4o00043g5s6r8cn20q",
+      "roomRequests": [
+        {
+          "id": "cjqnbbf4o00053g5s2oatn3ax",
+          "name": "room-1",
+          "requests": {
+            "adult": 1,
+            "child": 2
+          }
+        }
+      ]
+    }
+  ],
+  "rooms": [
+    {
+      "id": "1",
+      "name": "room-1",
+      "key": "room1",
+      "label": "Room 1",
+      "vacancies": {
+        "adult": 5,
+        "child": 3
+      }
+    },
+    {
+      "id": "2",
+      "name": "room-2",
+      "key": "room2",
+      "label": "Room 2",
+      "vacancies": {
+        "adult": 5,
+        "child": 3
+      }
+    },
+    {
+      "id": "3",
+      "name": "room-3",
+      "key": "room3",
+      "label": "Room 3",
+      "vacancies": {
+        "adult": 5,
+        "child": 3
+      }
+    },
+    {
+      "id": "4",
+      "name": "room-4",
+      "key": "room4",
+      "label": "Room 4",
+      "vacancies": {
+        "adult": 5,
+        "child": 3
+      }
+    }
+  ]
+}

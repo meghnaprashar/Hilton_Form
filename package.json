@@ -1,0 +1,122 @@
+{
+  "name": "assessment-2",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@types/styled-components": "4.0.3",
+    "axios": "0.18.0",
+    "cuid": "2.1.4",
+    "lodash": "4.17.11",
+    "node-sass": "4.11.0",
+    "normalize.css": "8.0.1",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "react-scripts": "2.1.3",
+    "recompose": "0.30.0",
+    "rxjs": "6.3.3",
+    "sinon": "7.2.2",
+    "styled-components": "4.0.3"
+  },
+  "scripts": {
+    "start:client": "react-scripts start",
+    "start:server": "npx json-server --watch db.json --port 3005",
+    "start": "run-p start:server start:client",
+    "build": "rescripts build",
+    "lint:js": "eslint --ext=js --ext=jsx --fix .",
+    "lint:scss": "stylelint --config=.stylelintrc '**/*.scss'",
+    "lint": "run-s lint:**",
+    "test:watch": "rescripts test --coverage --watch",
+    "test:unit": "rescripts test --coverage",
+    "test": "run-s lint test:unit"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "rescripts": [
+    "env"
+  ],
+  "devDependencies": {
+    "@rescripts/cli": "0.0.7",
+    "@rescripts/rescript-env": "0.0.3",
+    "@types/bluebird": "3.5.25",
+    "@types/chai": "4.1.7",
+    "@types/chai-enzyme": "0.6.5",
+    "@types/chai-spies": "1.0.0",
+    "@types/classnames": "2.2.6",
+    "@types/enzyme": "3.1.15",
+    "@types/jest": "23.3.11",
+    "@types/jsdom": "12.2.1",
+    "@types/lodash": "4.14.119",
+    "@types/node": "10.12.18",
+    "@types/react": "16.7.18",
+    "@types/react-dom": "16.0.11",
+    "@types/recompose": "0.30.2",
+    "axios-mock-adapter": "1.16.0",
+    "babel-plugin-styled-components": "1.10.0",
+    "bluebird": "3.5.3",
+    "chai": "4.2.0",
+    "chai-enzyme": "1.0.0-beta.1",
+    "chai-spies": "1.0.0",
+    "enzyme": "3.8.0",
+    "enzyme-adapter-react-16": "1.7.1",
+    "enzyme-to-json": "3.3.5",
+    "eslint-config-prettier": "3.3.0",
+    "eslint-plugin-prettier": "3.0.0",
+    "husky": "1.2.1",
+    "jest-dom": "3.0.0",
+    "jest-enzyme": "7.0.1",
+    "jest-localstorage-mock": "2.4.0",
+    "jest-styled-components": "6.3.1",
+    "jsdom": "13.1.0",
+    "json-server": "0.14.2",
+    "lint-staged": "8.1.0",
+    "npm-run-all": "4.1.5",
+    "prettier": "1.15.3",
+    "pretty-quick": "1.8.0",
+    "react-test-renderer": "16.6.3",
+    "react-testing-library": "5.3.2",
+    "stylelint": "9.9.0",
+    "stylelint-config-standard": "18.2.0",
+    "typescript": "3.2.2"
+  },
+  "lint-staged": {
+    "src/**/*.{js,jsx,json}": [
+      "eslint --fix",
+      "prettier --config .prettierrc --write",
+      "git add"
+    ],
+    "src/**/*.{scss,css}": [
+      "stylelint --config=.stylelintrc --fix",
+      "prettier --config .prettierrc --write",
+      "git add"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "precommit": "lint-staged"
+    }
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "src/**/*.{js,jsx,ts,tsx}",
+      "!src/serviceWorker.js",
+      "!src/index.tsx",
+      "!node_modules/",
+      "!coverage/"
+    ],
+    "coverageThreshold": {
+      "global": {
+        "branches": 0,
+        "functions": 0,
+        "lines": 0,
+        "statements": 0
+      }
+    },
+    "coverageReporters": [
+      "text"
+    ]
+  }
+}
