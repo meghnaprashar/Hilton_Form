@@ -6,7 +6,7 @@
     "@types/styled-components": "4.0.3",
     "axios": "0.18.0",
     "cuid": "2.1.4",
-    "lodash": "4.17.11",
+    "lodash": "4.17.19",
     "node-sass": "4.11.0",
     "normalize.css": "8.0.1",
     "react": "^16.6.3",
